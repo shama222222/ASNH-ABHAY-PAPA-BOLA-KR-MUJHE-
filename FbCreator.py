@@ -33,7 +33,7 @@ def logo():
 |__/  |__/|__/  |__/|__/  |__/ \______/ |________/
 """
     for N, line in enumerate(x.split("\n")):
-        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
+        
         time.sleep(0.05)
 logo()
 print('''\033[1;33m---------------------------------------------------------------------\n''')
