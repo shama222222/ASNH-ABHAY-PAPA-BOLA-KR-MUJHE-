@@ -27,7 +27,6 @@ def pas():
 
     if mmm not in password:
         print('[-] <==> Incorrect Password!')
-        sys.exit()    """)
 print('\x1b[38;5;208m⇼'*60)
 print('\x1b[38;5;22m•'*60)
 print('\x1b[38;5;22m•'*60)
