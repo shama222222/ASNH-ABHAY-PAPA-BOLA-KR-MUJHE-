@@ -1,8 +1,6 @@
 def liness():
 		print('\u001b[37m' + '[>] ================================')
-		
-		
-cls()
+	
 CLEAR_SCREEN = '\033[2J'
 RED = '\033[1;31;1m'  # mode 31 = red foreground
 RESET = '\033[1;37;1m'  # mode 0  = reset
