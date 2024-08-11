@@ -50,10 +50,8 @@ def venom():
 
 '''
     for N, line in enumerate(y.split("\n")):
-        sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
         time.sleep(0.05)
     	
-venom()
 print('''\033[1;32m[#] _ KATTAR HINDU == > [ Jai Shree Ram ❤️💪]\n''')
 import requests
 import random
