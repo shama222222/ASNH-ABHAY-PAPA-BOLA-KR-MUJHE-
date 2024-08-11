@@ -1,65 +1,12 @@
-def liness():
-		print('\u001b[37m' + '[>] ================================')
-	
-CLEAR_SCREEN = '\033[2J'
-RED = '\033[1;31;1m'  # mode 31 = red foreground
-RESET = '\033[1;37;1m'  # mode 0  = reset
-BLUE = "\033[1;36;1m"
-WHITE = "\033[1;30;1m",
-YELLOW = "\033[1;37;1m",
-CYAN = "\033[1;36;1m"
-MAGENTA = "\033[1;37;1m",
-GREEN = "\033[1;32;1m"
-RESET = "\033[1;37;1m"
-BOLD = '\033[1;37;1m'
-REVERSE = "\033[1;37;1m"
-
-
-
-def logo():
-    clear = "\x1b[0m"
-    colors = [35, 33, 36]
-
-    x = """
- 
- 
- /$$$$$$$   /$$$$$$  /$$   /$$ /$$   /$$ /$$      
-| $$__  $$ /$$__  $$| $$  | $$| $$  | $$| $$      
-| $$  \ $$| $$  \ $$| $$  | $$| $$  | $$| $$      
-| $$$$$$$/| $$$$$$$$| $$$$$$$$| $$  | $$| $$      
-| $$__  $$| $$__  $$| $$__  $$| $$  | $$| $$      
-| $$  \ $$| $$  | $$| $$  | $$| $$  | $$| $$      
-| $$  | $$| $$  | $$| $$  | $$|  $$$$$$/| $$$$$$$$
-|__/  |__/|__/  |__/|__/  |__/ \______/ |________/
-"""
-       
-logo()
-print('''\033[1;33m---------------------------------------------------------------------\n''')
-def venom():
-    clear = "\x1b[0m"
-    colors = [35, 33, 36]
-
-    y = '''
-\033[1;97m╔═════════════════════════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mN4M3    \033[1;91m: \033[1;96mSOURAV TIWARI \033[1;97m                       
-\033[1;97m║\033[1;93m* \033[1;97mRULL3X  \033[1;91m: \033[1;96mNO RUL3X N0 G9NG \033[1;97m         
-\033[1;97m║\033[1;93m* \033[1;97mBR9ND   \033[1;91m: \033[1;96mMR R9HUL H3R3  \033[1;97m             
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;96mhttps://www.facebook.com/R4HULD0NH3R3\033[1;97m.   
-\033[1;97m║\033[1;93m* \033[1;97mWH9TS99P N0. \033[1;91m: \033[1;96m+91 9106****71\033[1;97m                           
-\033[1;97m╚═════════════════════════════════════════════════════════════╝
-
-'''
-    for N, line in enumerate(y.split("\n")):
-        time.sleep(0.05)
-    	
-print(    y = '''
-\033[1;97m╔═════════════════════════════════════════════════════════════╗
-\033[1;97m║\033[1;93m* \033[1;97mN4M3    \033[1;91m: \033[1;96mSOURAV TIWARI \033[1;97m                       
-\033[1;97m║\033[1;93m* \033[1;97mRULL3X  \033[1;91m: \033[1;96mNO RUL3X N0 G9NG \033[1;97m         
-\033[1;97m║\033[1;93m* \033[1;97mBR9ND   \033[1;91m: \033[1;96mMR R9HUL H3R3  \033[1;97m             
-\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;96mhttps://www.facebook.com/R4HULD0NH3R3\033[1;97m.   
-\033[1;97m║\033[1;93m* \033[1;97mWH9TS99P N0. \033[1;91m: \033[1;96m+91 9106****71\033[1;97m                           
-\033[1;97m╚═════════════════════════════════════════════════════════════╝)
+print(f"""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓           
+❖ › Github :- @ANSH -ABHAY KI DD KI BUR
+❖ › By      :- ROBIN X3 RAHUL DON :D
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛                """)
+print('\x1b[38;5;208m⇼'*60)
+print('\x1b[38;5;22m•'*60)
+print('\x1b[38;5;22m•'*60)
+print('\x1b[38;5;208m⇼'*60)
 import requests
 import random
 import string
@@ -137,7 +84,7 @@ def _call(url, params, post=True):
     else:
         response = requests.get(url, params=params, headers=headers)
     return response.json()
-for i in range(int(input('[+] How Many Accounts You Want:  '))):
+for i in range(int(input('[+] ABHAY + ANSH KI DIDI CHODNE KE LIYE KITNA Accounts You Want:  '))):
  email, password, first_name, last_name, birthday = create_mail_tm_account()
  if email and password and first_name and last_name and birthday:
   register_facebook_account(email, password, first_name, last_name, birthday)
